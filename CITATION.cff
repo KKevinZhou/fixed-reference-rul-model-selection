@@ -12,3 +12,6 @@ authors:
 version: "2026.10.18-rc1"
 license: MIT
 repository-code: "https://github.com/KKevinZhou/fixed-reference-rul-model-selection"
+doi: "10.5281/zenodo.23464274"
+url: "https://zenodo.org/records/23464274"
+date-released: "2026-10-19"
