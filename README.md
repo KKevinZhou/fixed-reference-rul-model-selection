@@ -33,6 +33,6 @@ Author software and software documentation retain the existing [MIT license](LIC
 
 The protected manuscript BibTeX file and scientific result bytes were not edited for publication.
 
-Archived ZIP SHA-256: `fe07c9929fd4b908eca04407ca6a670b69f2bc54464e4db7448ab5ffc5db8fa6` (local reviewed artifact); the public record reports the matching MD5 `958ce62ab07f6162a84169cb7a5c5699`.
+Archived ZIP SHA-256: `fe07c9929fd4b908eca04407ca6a670b69f2bc54464e4db7448ab5ffc5db8fa6` (verified against the manually downloaded public archive on 2026-10-19); the public record reports the matching MD5 `958ce62ab07f6162a84169cb7a5c5699`.
 
 Reviewed code snapshot: [`384694c`](https://github.com/KKevinZhou/fixed-reference-rul-model-selection/commit/384694c0499f604fa76e40c619cfbcc909fa91e4). Later metadata-only commits supply the archival links.
