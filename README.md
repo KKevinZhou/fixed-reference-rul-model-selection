@@ -6,13 +6,13 @@ Authors: Dejian Jiang, Zhiheng Zhou, and Xiyue Deng.
 
 ## Code and full reproduction artifact
 
-This GitHub repository hosts the software and configuration subset of the reviewed `2026.10.18-rc1` artifact. It includes the training, inference, verification, and summary-generation code under [reproduction/](reproduction/). Derived prediction records and checkpoint weight binaries are archived separately on Zenodo and are not included in this code checkout. The Zenodo record is currently a draft; no public DOI is claimed here.
+This GitHub repository hosts the software and configuration subset of the reviewed `2026.10.18-rc1` artifact. It includes the training, inference, verification, and summary-generation code under [reproduction/](reproduction/). Derived prediction records and checkpoint weight binaries are archived separately on [Zenodo](https://zenodo.org/records/23464274) and are not included in this code checkout. The version archive was published on 2026-10-19: **[10.5281/zenodo.23464274](https://doi.org/10.5281/zenodo.23464274)**.
 
 The complete reviewed archive contains 210 successful result records (320 fits), derived predictions, thirteen manuscript summary tables, and eight predefined checkpoint-audit cases. It excludes raw NASA files and preprocessed sensor features. [NASA_DATA.md](reproduction/NASA_DATA.md) supplies official links and checksums. The included [PUBLIC_MANIFEST.json](reproduction/PUBLIC_MANIFEST.json) describes the complete artifact, not just this code checkout.
 
 ## Reproduction
 
-Once the Zenodo archive is published, download and extract it into `reproduction/` to restore all manifest-listed files. Use Python 3.13 and a dedicated dependency environment. Then run:
+Download the [reviewed ZIP](https://zenodo.org/records/23464274/files/Fixed_Reference_Public_20261018_RC1.zip?download=1) and extract its contents directly into `reproduction/` to restore all manifest-listed files. The ZIP has no enclosing directory. Use Python 3.13 and a dedicated dependency environment. Then run:
 
 ```shell
 cd reproduction
@@ -32,3 +32,7 @@ The standard test data were inspected during earlier development. These results 
 Author software and software documentation retain the existing [MIT license](LICENSE). Author-derived predictions, configuration datasets, and the eight selected weights use [CC BY 4.0](reproduction/DATA_AND_WEIGHTS_LICENSE.md). NASA and other third-party rights remain separate. See [third-party notices](reproduction/THIRD_PARTY_NOTICES.md) and the [AI assistance record](reproduction/AI_ASSISTANCE_RECORD.md).
 
 The protected manuscript BibTeX file and scientific result bytes were not edited for publication.
+
+Archived ZIP SHA-256: `fe07c9929fd4b908eca04407ca6a670b69f2bc54464e4db7448ab5ffc5db8fa6` (local reviewed artifact); the public record reports the matching MD5 `958ce62ab07f6162a84169cb7a5c5699`.
+
+Reviewed code snapshot: [`384694c`](https://github.com/KKevinZhou/fixed-reference-rul-model-selection/commit/384694c0499f604fa76e40c619cfbcc909fa91e4). Later metadata-only commits supply the archival links.
