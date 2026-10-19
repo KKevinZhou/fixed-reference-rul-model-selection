@@ -1,0 +1,16 @@
+# Reference environment used for the protocol-locked campaign
+python==3.12.3
+torch==2.6.0+cu124
+cuda-runtime==12.4
+cudnn==9.1.0
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.17.0
+scikit-learn==1.8.0
+optuna==4.9.0
+matplotlib==3.9.1
+pytest==7.4.4
+
+# Accelerator recorded for provenance; CPU execution remains supported.
+gpu=NVIDIA GeForce RTX 4060 Laptop GPU
+nvidia-driver=561.09

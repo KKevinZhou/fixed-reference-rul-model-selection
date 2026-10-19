@@ -1,0 +1,14 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The author-derived datasets and eight selected model weights identified in
+DATA_AND_WEIGHTS_LICENSE.md are licensed under CC BY 4.0.
+
+Author attribution: Dejian Jiang, Zhiheng Zhou, and Xiyue Deng.
+Study: Fixed-Reference Scoring for Task-Consistent RUL Model Selection under Tunable Target Capping.
+
+Official license notice: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+This is a license notice incorporating the official terms by reference,
+not a reproduction of the full legal code. See DATA_AND_WEIGHTS_LICENSE.md
+for scope, required notices, and the separate MIT/NASA/third-party rights.

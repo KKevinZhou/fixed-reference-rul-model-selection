@@ -1,0 +1,35 @@
+{
+  "protocol": "confirmatory-model-seed-stability-v2",
+  "screening_campaign_id": "ccv2-f34936e264e36f22",
+  "screening_manifest_sha256": "b8501b8642450fe11c42b01cfec7481c88e48bdd0c767868cf9016e342e57654",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "caps": [
+    90,
+    100,
+    110,
+    115,
+    125
+  ],
+  "primary_split_seed": 20260724,
+  "reused_model_seed": 42,
+  "additional_model_seeds": [
+    43,
+    44
+  ],
+  "stability_script_sha256": "554cbbb8733647d2ab70e1b9bb1cc012c40db36033d5fd980c6245a856f00f9e",
+  "trainer_sha256": "5f4dcb30b0c79d9a5bf02d9880a039f2dd0efb4be8f248e48bf183a81f664499",
+  "model_sha256": "b6f1d0baac6369d4d51f0451d9219ffc27e5210154cec3110ceef9a3433b622b",
+  "epochs": 40,
+  "patience": 6,
+  "train_stride": 5,
+  "validation_interval": 2,
+  "carrier": "compact_tcn",
+  "selection_rule": "minimum equal-weight mean over three grouped splits; primary split value is the mean over model seeds 42--44 and each secondary split uses preregistered model seed 42; exact ties prefer larger cap",
+  "test_evaluated": false,
+  "campaign_id": "csv2-ac1c44ec2e5369fc"
+}

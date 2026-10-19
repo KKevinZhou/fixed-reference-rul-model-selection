@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software artifact and the associated manuscript when using these materials."
+title: "Fixed-Reference Scoring for Task-Consistent RUL Model Selection under Tunable Target Capping"
+type: software
+authors:
+  - family-names: Jiang
+    given-names: Dejian
+  - family-names: Zhou
+    given-names: Zhiheng
+  - family-names: Deng
+    given-names: Xiyue
+version: "2026.10.18-rc1"
+license: MIT
+repository-code: "https://github.com/KKevinZhou/fixed-reference-rul-model-selection"

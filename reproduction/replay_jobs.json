@@ -1,0 +1,2636 @@
+{
+  "successful_fits": 320,
+  "failed_original_precision_cell_is_not_a_successful_job": true,
+  "jobs": [
+    {
+      "id": "job001",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD001_guard_fd001_cap100.json"
+    },
+    {
+      "id": "job002",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD001_guard_fd001_cap110.json"
+    },
+    {
+      "id": "job003",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD001_guard_fd001_cap115.json"
+    },
+    {
+      "id": "job004",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD001_guard_fd001_cap125.json"
+    },
+    {
+      "id": "job005",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD001_guard_fd001_cap90.json"
+    },
+    {
+      "id": "job006",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD002_guard_fd002_cap100.json"
+    },
+    {
+      "id": "job007",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD002_guard_fd002_cap110.json"
+    },
+    {
+      "id": "job008",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD002_guard_fd002_cap115.json"
+    },
+    {
+      "id": "job009",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD002_guard_fd002_cap125.json"
+    },
+    {
+      "id": "job010",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "fp32_attention_sensitivity_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_with_fp32_attention",
+      "result": "archive/continuation_20261011_v2/guarded_carrier/results/FD002_guard_fd002_cap90.json"
+    },
+    {
+      "id": "job011",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/author_reported_cap_replay_20261011/five_seed_test/results/FD001_author_fd001_cap100.json"
+    },
+    {
+      "id": "job012",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/author_reported_cap_replay_20261011/five_seed_test/results/FD002_author_fd002_cap100.json"
+    },
+    {
+      "id": "job013",
+      "dataset": "FD004",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/author_reported_cap_replay_20261011/five_seed_test/results/FD004_author_fd004_cap115.json"
+    },
+    {
+      "id": "job014",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_cap_fd001_110.json"
+    },
+    {
+      "id": "job015",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_cap_fd001_125.json"
+    },
+    {
+      "id": "job016",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_cap_fd001_90.json"
+    },
+    {
+      "id": "job017",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_tpe_fd001_fixed_cap_125.json"
+    },
+    {
+      "id": "job018",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_tpe_fd001_fixed_reference.json"
+    },
+    {
+      "id": "job019",
+      "dataset": "FD001",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD001_tpe_fd001_self_scaled.json"
+    },
+    {
+      "id": "job020",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_cap_fd002_110.json"
+    },
+    {
+      "id": "job021",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_cap_fd002_125.json"
+    },
+    {
+      "id": "job022",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_cap_fd002_90.json"
+    },
+    {
+      "id": "job023",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_tpe_fd002_fixed_cap_125.json"
+    },
+    {
+      "id": "job024",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_tpe_fd002_fixed_reference.json"
+    },
+    {
+      "id": "job025",
+      "dataset": "FD002",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD002_tpe_fd002_self_scaled.json"
+    },
+    {
+      "id": "job026",
+      "dataset": "FD003",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD003_cap_fd003_115.json"
+    },
+    {
+      "id": "job027",
+      "dataset": "FD003",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD003_cap_fd003_125.json"
+    },
+    {
+      "id": "job028",
+      "dataset": "FD003",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD003_cap_fd003_90.json"
+    },
+    {
+      "id": "job029",
+      "dataset": "FD004",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD004_cap_fd004_110.json"
+    },
+    {
+      "id": "job030",
+      "dataset": "FD004",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD004_cap_fd004_125.json"
+    },
+    {
+      "id": "job031",
+      "dataset": "FD004",
+      "seeds": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "scope": "new_test_execution_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/continuation_20261011_v2/five_seed_test/results/FD004_cap_fd004_90.json"
+    },
+    {
+      "id": "job032",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD001_dualstream_transfer_cap100_split20260724_seed42.json"
+    },
+    {
+      "id": "job033",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD001_dualstream_transfer_cap110_split20260724_seed42.json"
+    },
+    {
+      "id": "job034",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD001_dualstream_transfer_cap115_split20260724_seed42.json"
+    },
+    {
+      "id": "job035",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD001_dualstream_transfer_cap125_split20260724_seed42.json"
+    },
+    {
+      "id": "job036",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD001_dualstream_transfer_cap90_split20260724_seed42.json"
+    },
+    {
+      "id": "job037",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD002_dualstream_transfer_cap100_split20260724_seed42.json"
+    },
+    {
+      "id": "job038",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD002_dualstream_transfer_cap110_split20260724_seed42.json"
+    },
+    {
+      "id": "job039",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD002_dualstream_transfer_cap115_split20260724_seed42.json"
+    },
+    {
+      "id": "job040",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/carrier_transfer/results/FD002_dualstream_transfer_cap90_split20260724_seed42.json"
+    },
+    {
+      "id": "job041",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap100_split20260724.json"
+    },
+    {
+      "id": "job042",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap100_split20260725.json"
+    },
+    {
+      "id": "job043",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap100_split20260726.json"
+    },
+    {
+      "id": "job044",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap110_split20260724.json"
+    },
+    {
+      "id": "job045",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap110_split20260725.json"
+    },
+    {
+      "id": "job046",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap110_split20260726.json"
+    },
+    {
+      "id": "job047",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap115_split20260724.json"
+    },
+    {
+      "id": "job048",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap115_split20260725.json"
+    },
+    {
+      "id": "job049",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap115_split20260726.json"
+    },
+    {
+      "id": "job050",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap125_split20260724.json"
+    },
+    {
+      "id": "job051",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap125_split20260725.json"
+    },
+    {
+      "id": "job052",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap125_split20260726.json"
+    },
+    {
+      "id": "job053",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap90_split20260724.json"
+    },
+    {
+      "id": "job054",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap90_split20260725.json"
+    },
+    {
+      "id": "job055",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_cap90_split20260726.json"
+    },
+    {
+      "id": "job056",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_stability_cap100_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job057",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_stability_cap110_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job058",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_stability_cap115_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job059",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_stability_cap125_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job060",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_stability_cap90_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job061",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial000_4e629207f7.json"
+    },
+    {
+      "id": "job062",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial001_30ac3154cf.json"
+    },
+    {
+      "id": "job063",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial002_5e825a31cb.json"
+    },
+    {
+      "id": "job064",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial003_59a5bc23cc.json"
+    },
+    {
+      "id": "job065",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial004_ef67d01aab.json"
+    },
+    {
+      "id": "job066",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial005_005068596e.json"
+    },
+    {
+      "id": "job067",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial006_5a600821a8.json"
+    },
+    {
+      "id": "job068",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial007_83666ac414.json"
+    },
+    {
+      "id": "job069",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial008_18109c3628.json"
+    },
+    {
+      "id": "job070",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial009_d53edd1f86.json"
+    },
+    {
+      "id": "job071",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial010_f2dcbad0ba.json"
+    },
+    {
+      "id": "job072",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_cap_125_q20260724_trial011_81a119c250.json"
+    },
+    {
+      "id": "job073",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial000_f73826d26d.json"
+    },
+    {
+      "id": "job074",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial001_f94622a048.json"
+    },
+    {
+      "id": "job075",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial002_c4c1853202.json"
+    },
+    {
+      "id": "job076",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial003_cbdc3f578d.json"
+    },
+    {
+      "id": "job077",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial004_564258e65b.json"
+    },
+    {
+      "id": "job078",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial005_6b499957a4.json"
+    },
+    {
+      "id": "job079",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial006_3f9ceabf9e.json"
+    },
+    {
+      "id": "job080",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial007_604d11551f.json"
+    },
+    {
+      "id": "job081",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial008_712068d6e0.json"
+    },
+    {
+      "id": "job082",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial009_2c3fdc8c37.json"
+    },
+    {
+      "id": "job083",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial010_feb09b1f01.json"
+    },
+    {
+      "id": "job084",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_fixed_reference_q20260724_trial011_1650350bee.json"
+    },
+    {
+      "id": "job085",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_cap_125_split20260724_s43-44_59a5bc23.json"
+    },
+    {
+      "id": "job086",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_cap_125_split20260725_s42-42_59a5bc23.json"
+    },
+    {
+      "id": "job087",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_cap_125_split20260726_s42-42_59a5bc23.json"
+    },
+    {
+      "id": "job088",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_reference_split20260724_s43-44_cbdc3f57.json"
+    },
+    {
+      "id": "job089",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_reference_split20260725_s42-42_cbdc3f57.json"
+    },
+    {
+      "id": "job090",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_fixed_reference_split20260726_s42-42_cbdc3f57.json"
+    },
+    {
+      "id": "job091",
+      "dataset": "FD001",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_self_scaled_split20260724_s43-44_4546be3d.json"
+    },
+    {
+      "id": "job092",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_self_scaled_split20260725_s42-42_4546be3d.json"
+    },
+    {
+      "id": "job093",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_robust_self_scaled_split20260726_s42-42_4546be3d.json"
+    },
+    {
+      "id": "job094",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial000_f73826d26d.json"
+    },
+    {
+      "id": "job095",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial001_f94622a048.json"
+    },
+    {
+      "id": "job096",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial002_c4c1853202.json"
+    },
+    {
+      "id": "job097",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial003_cbdc3f578d.json"
+    },
+    {
+      "id": "job098",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial004_564258e65b.json"
+    },
+    {
+      "id": "job099",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial005_6b499957a4.json"
+    },
+    {
+      "id": "job100",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial006_3f9ceabf9e.json"
+    },
+    {
+      "id": "job101",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial007_604d11551f.json"
+    },
+    {
+      "id": "job102",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial008_4546be3deb.json"
+    },
+    {
+      "id": "job103",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial009_57a2c0f57c.json"
+    },
+    {
+      "id": "job104",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial010_44d4687768.json"
+    },
+    {
+      "id": "job105",
+      "dataset": "FD001",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD001_tpe_self_scaled_q20260724_trial011_127bcc32a2.json"
+    },
+    {
+      "id": "job106",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap100_split20260724.json"
+    },
+    {
+      "id": "job107",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap100_split20260725.json"
+    },
+    {
+      "id": "job108",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap100_split20260726.json"
+    },
+    {
+      "id": "job109",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap110_split20260724.json"
+    },
+    {
+      "id": "job110",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap110_split20260725.json"
+    },
+    {
+      "id": "job111",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap110_split20260726.json"
+    },
+    {
+      "id": "job112",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap115_split20260724.json"
+    },
+    {
+      "id": "job113",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap115_split20260725.json"
+    },
+    {
+      "id": "job114",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap115_split20260726.json"
+    },
+    {
+      "id": "job115",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap125_split20260724.json"
+    },
+    {
+      "id": "job116",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap125_split20260725.json"
+    },
+    {
+      "id": "job117",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap125_split20260726.json"
+    },
+    {
+      "id": "job118",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap90_split20260724.json"
+    },
+    {
+      "id": "job119",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap90_split20260725.json"
+    },
+    {
+      "id": "job120",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_cap90_split20260726.json"
+    },
+    {
+      "id": "job121",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_stability_cap100_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job122",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_stability_cap110_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job123",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_stability_cap115_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job124",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_stability_cap125_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job125",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_stability_cap90_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job126",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial000_4e629207f7.json"
+    },
+    {
+      "id": "job127",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial001_30ac3154cf.json"
+    },
+    {
+      "id": "job128",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial002_5e825a31cb.json"
+    },
+    {
+      "id": "job129",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial003_59a5bc23cc.json"
+    },
+    {
+      "id": "job130",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial004_ef67d01aab.json"
+    },
+    {
+      "id": "job131",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial005_005068596e.json"
+    },
+    {
+      "id": "job132",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial006_13d326dfef.json"
+    },
+    {
+      "id": "job133",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial007_c06febd73b.json"
+    },
+    {
+      "id": "job134",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial008_a624707539.json"
+    },
+    {
+      "id": "job135",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial009_1421fd0eb7.json"
+    },
+    {
+      "id": "job136",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial010_5ddeabd073.json"
+    },
+    {
+      "id": "job137",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_cap_125_q20260724_trial011_c0462eb680.json"
+    },
+    {
+      "id": "job138",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial000_f73826d26d.json"
+    },
+    {
+      "id": "job139",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial001_f94622a048.json"
+    },
+    {
+      "id": "job140",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial002_c4c1853202.json"
+    },
+    {
+      "id": "job141",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial003_cbdc3f578d.json"
+    },
+    {
+      "id": "job142",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial004_564258e65b.json"
+    },
+    {
+      "id": "job143",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial005_6b499957a4.json"
+    },
+    {
+      "id": "job144",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial006_3f9ceabf9e.json"
+    },
+    {
+      "id": "job145",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial007_5ddab5e32d.json"
+    },
+    {
+      "id": "job146",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial008_2622c7d9f2.json"
+    },
+    {
+      "id": "job147",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial009_b9a5353d80.json"
+    },
+    {
+      "id": "job148",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial010_582802b39c.json"
+    },
+    {
+      "id": "job149",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_fixed_reference_q20260724_trial011_d235c4c6d2.json"
+    },
+    {
+      "id": "job150",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_cap_125_split20260724_s43-44_00506859.json"
+    },
+    {
+      "id": "job151",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_cap_125_split20260725_s42-42_00506859.json"
+    },
+    {
+      "id": "job152",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_cap_125_split20260726_s42-42_00506859.json"
+    },
+    {
+      "id": "job153",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_reference_split20260724_s43-44_582802b3.json"
+    },
+    {
+      "id": "job154",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_reference_split20260725_s42-42_582802b3.json"
+    },
+    {
+      "id": "job155",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_fixed_reference_split20260726_s42-42_582802b3.json"
+    },
+    {
+      "id": "job156",
+      "dataset": "FD002",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_self_scaled_split20260724_s43-44_be6bc967.json"
+    },
+    {
+      "id": "job157",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_self_scaled_split20260725_s42-42_be6bc967.json"
+    },
+    {
+      "id": "job158",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_robust_self_scaled_split20260726_s42-42_be6bc967.json"
+    },
+    {
+      "id": "job159",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial000_f73826d26d.json"
+    },
+    {
+      "id": "job160",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial001_f94622a048.json"
+    },
+    {
+      "id": "job161",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial002_c4c1853202.json"
+    },
+    {
+      "id": "job162",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial003_cbdc3f578d.json"
+    },
+    {
+      "id": "job163",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial004_564258e65b.json"
+    },
+    {
+      "id": "job164",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial005_6b499957a4.json"
+    },
+    {
+      "id": "job165",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial006_adf147464f.json"
+    },
+    {
+      "id": "job166",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial007_3180bb6538.json"
+    },
+    {
+      "id": "job167",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial008_4546be3deb.json"
+    },
+    {
+      "id": "job168",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial009_57a2c0f57c.json"
+    },
+    {
+      "id": "job169",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial010_be6bc967ed.json"
+    },
+    {
+      "id": "job170",
+      "dataset": "FD002",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD002_tpe_self_scaled_q20260724_trial011_936d3a9730.json"
+    },
+    {
+      "id": "job171",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap100_split20260724.json"
+    },
+    {
+      "id": "job172",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap100_split20260725.json"
+    },
+    {
+      "id": "job173",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap100_split20260726.json"
+    },
+    {
+      "id": "job174",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap110_split20260724.json"
+    },
+    {
+      "id": "job175",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap110_split20260725.json"
+    },
+    {
+      "id": "job176",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap110_split20260726.json"
+    },
+    {
+      "id": "job177",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap115_split20260724.json"
+    },
+    {
+      "id": "job178",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap115_split20260725.json"
+    },
+    {
+      "id": "job179",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap115_split20260726.json"
+    },
+    {
+      "id": "job180",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap125_split20260724.json"
+    },
+    {
+      "id": "job181",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap125_split20260725.json"
+    },
+    {
+      "id": "job182",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap125_split20260726.json"
+    },
+    {
+      "id": "job183",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap90_split20260724.json"
+    },
+    {
+      "id": "job184",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap90_split20260725.json"
+    },
+    {
+      "id": "job185",
+      "dataset": "FD003",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_cap90_split20260726.json"
+    },
+    {
+      "id": "job186",
+      "dataset": "FD003",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_stability_cap100_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job187",
+      "dataset": "FD003",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_stability_cap110_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job188",
+      "dataset": "FD003",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_stability_cap115_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job189",
+      "dataset": "FD003",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_stability_cap125_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job190",
+      "dataset": "FD003",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD003_stability_cap90_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job191",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap100_split20260724.json"
+    },
+    {
+      "id": "job192",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap100_split20260725.json"
+    },
+    {
+      "id": "job193",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap100_split20260726.json"
+    },
+    {
+      "id": "job194",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap110_split20260724.json"
+    },
+    {
+      "id": "job195",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap110_split20260725.json"
+    },
+    {
+      "id": "job196",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap110_split20260726.json"
+    },
+    {
+      "id": "job197",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap115_split20260724.json"
+    },
+    {
+      "id": "job198",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap115_split20260725.json"
+    },
+    {
+      "id": "job199",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap115_split20260726.json"
+    },
+    {
+      "id": "job200",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap125_split20260724.json"
+    },
+    {
+      "id": "job201",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap125_split20260725.json"
+    },
+    {
+      "id": "job202",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap125_split20260726.json"
+    },
+    {
+      "id": "job203",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap90_split20260724.json"
+    },
+    {
+      "id": "job204",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260725,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap90_split20260725.json"
+    },
+    {
+      "id": "job205",
+      "dataset": "FD004",
+      "seeds": [
+        42
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260726,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_cap90_split20260726.json"
+    },
+    {
+      "id": "job206",
+      "dataset": "FD004",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 100.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_stability_cap100_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job207",
+      "dataset": "FD004",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 110.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_stability_cap110_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job208",
+      "dataset": "FD004",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 115.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_stability_cap115_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job209",
+      "dataset": "FD004",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 125.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_stability_cap125_split20260724_seeds43-44.json"
+    },
+    {
+      "id": "job210",
+      "dataset": "FD004",
+      "seeds": [
+        43,
+        44
+      ],
+      "scope": "original_precision_success_result",
+      "train_cap": 90.0,
+      "split_seed": 20260724,
+      "numerical_policy": "original_amp_float16",
+      "result": "archive/new_cap_campaign/results/FD004_stability_cap90_split20260724_seeds43-44.json"
+    }
+  ]
+}

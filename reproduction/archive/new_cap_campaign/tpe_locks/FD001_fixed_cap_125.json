@@ -1,0 +1,247 @@
+{
+  "protocol": "confirmatory-tpe-lock-v2",
+  "campaign_id": "tpev2-eb35923ceab6f4b1",
+  "manifest_sha256": "7bf673e9ffa38f216b8ae1bce71ee6c2a220cc812bb248aa3604c4a83e2f315b",
+  "dataset": "FD001",
+  "objective": "fixed_cap_125",
+  "metric": "reference_rmse",
+  "complete_trials": 12,
+  "failed_trials": 0,
+  "running_trials": 0,
+  "waiting_trials": 0,
+  "sampler": {
+    "name": "Optuna TPESampler",
+    "n_startup_trials": 6,
+    "seed": 20260724
+  },
+  "budget_definition": "equal number of complete trials; wall-clock/GPU time is recorded separately and is not claimed equal",
+  "total_elapsed_seconds": 215.31120204925537,
+  "best_trial": 3,
+  "best_value": 8.366282444268435,
+  "best_params": {
+    "train_cap": 125,
+    "lr": 0.00045900348087961253,
+    "batch": 64,
+    "huber_delta": 1.5
+  },
+  "best_result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial003_59a5bc23cc.json",
+  "test_evaluated": false,
+  "trial_table": [
+    {
+      "number": 0,
+      "state": "COMPLETE",
+      "value": 9.642500977936258,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.000844689652445663,
+        "batch": 128,
+        "huber_delta": 1.0
+      },
+      "user_attrs": {
+        "elapsed_seconds": 14.980021476745605,
+        "own_rmse": 9.642500977936258,
+        "reference_rmse": 9.642500977936258,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial000_4e629207f7.json",
+        "result_sha256": "10a69b122ba375a2ca6a1f1fe1a42b0020f785426d29cefddcefb0e42f3b7dae"
+      }
+    },
+    {
+      "number": 1,
+      "state": "COMPLETE",
+      "value": 9.019614768629232,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.00025109789314782614,
+        "batch": 64,
+        "huber_delta": 1.0
+      },
+      "user_attrs": {
+        "elapsed_seconds": 19.347375631332397,
+        "own_rmse": 9.019614768629232,
+        "reference_rmse": 9.019614768629232,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial001_30ac3154cf.json",
+        "result_sha256": "5408aa6c4009a4c9afe0dc181757fd45eaedaf1ee9329bce873f0ded6f7b6cd8"
+      }
+    },
+    {
+      "number": 2,
+      "state": "COMPLETE",
+      "value": 10.186339259115964,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0007322561260833921,
+        "batch": 128,
+        "huber_delta": 0.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 11.564310073852539,
+        "own_rmse": 10.186339259115964,
+        "reference_rmse": 10.186339259115964,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial002_5e825a31cb.json",
+        "result_sha256": "047e474594eb810cd61b8a0e583c9eeb22730d983afbd3420b95bfb038448677"
+      }
+    },
+    {
+      "number": 3,
+      "state": "COMPLETE",
+      "value": 8.366282444268435,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.00045900348087961253,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 17.803617238998413,
+        "own_rmse": 8.366282444268435,
+        "reference_rmse": 8.366282444268435,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial003_59a5bc23cc.json",
+        "result_sha256": "361f23f83c248770e07ad36c6cf5ce3e0fdc8e04bc26a6de9d106e4e7ab283de"
+      }
+    },
+    {
+      "number": 4,
+      "state": "COMPLETE",
+      "value": 9.36158678618762,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.00039089044562194095,
+        "batch": 64,
+        "huber_delta": 0.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 16.933260440826416,
+        "own_rmse": 9.36158678618762,
+        "reference_rmse": 9.36158678618762,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial004_ef67d01aab.json",
+        "result_sha256": "df1caec0680050030a30f7fb26f50f43d0007d65a1dd0df6b7411247c77284db"
+      }
+    },
+    {
+      "number": 5,
+      "state": "COMPLETE",
+      "value": 9.179326756221698,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0002627142716086224,
+        "batch": 128,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 19.29954743385315,
+        "own_rmse": 9.179326756221698,
+        "reference_rmse": 9.179326756221698,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial005_005068596e.json",
+        "result_sha256": "f5e4b71d497e3379acce744378e518ddc992787113dd10b8a7acae8a92852c1b"
+      }
+    },
+    {
+      "number": 6,
+      "state": "COMPLETE",
+      "value": 9.681174792278018,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0005019354335466976,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 18.615631580352783,
+        "own_rmse": 9.681174792278018,
+        "reference_rmse": 9.681174792278018,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial006_5a600821a8.json",
+        "result_sha256": "5ac326675c6070269bd3da50272a64d810cfbd5c68005cce11ae1580902ba18b"
+      }
+    },
+    {
+      "number": 7,
+      "state": "COMPLETE",
+      "value": 8.708099819677871,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0011110584601798632,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 27.943118572235107,
+        "own_rmse": 8.708099819677871,
+        "reference_rmse": 8.708099819677871,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial007_83666ac414.json",
+        "result_sha256": "5fb26ce1b0493d33ce1a705c8293c0aff881ab2de048bcafb50095ababb7b3ad"
+      }
+    },
+    {
+      "number": 8,
+      "state": "COMPLETE",
+      "value": 9.151984648353007,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.00042703969421547513,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 16.984506130218506,
+        "own_rmse": 9.151984648353007,
+        "reference_rmse": 9.151984648353007,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial008_18109c3628.json",
+        "result_sha256": "19d43cd638bf0206666cff6cad7a711cc71d291f5dd3ce2c3f2dc6e22b426865"
+      }
+    },
+    {
+      "number": 9,
+      "state": "COMPLETE",
+      "value": 10.0553821297986,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0005834526322142056,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 15.64316439628601,
+        "own_rmse": 10.0553821297986,
+        "reference_rmse": 10.0553821297986,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial009_d53edd1f86.json",
+        "result_sha256": "58e3d37090f5293533c3c939a6093f26f4bc8167c4b231bf8e5ea236b118ee94"
+      }
+    },
+    {
+      "number": 10,
+      "state": "COMPLETE",
+      "value": 11.937570597659446,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0002097898131374124,
+        "batch": 128,
+        "huber_delta": 0.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 19.586450576782227,
+        "own_rmse": 11.937570597659446,
+        "reference_rmse": 11.937570597659446,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial010_f2dcbad0ba.json",
+        "result_sha256": "3bbd85771ff2b7c906ee18261c11656c25e6f74d2f9ad0d4234a4ef5d81c9110"
+      }
+    },
+    {
+      "number": 11,
+      "state": "COMPLETE",
+      "value": 10.12609133910455,
+      "params": {
+        "train_cap": 125,
+        "lr": 0.0011434321410928947,
+        "batch": 64,
+        "huber_delta": 1.5
+      },
+      "user_attrs": {
+        "elapsed_seconds": 16.610198497772217,
+        "own_rmse": 10.12609133910455,
+        "reference_rmse": 10.12609133910455,
+        "result_path": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\new_cap_campaign\\results\\FD001_tpe_fixed_cap_125_q20260724_trial011_81a119c250.json",
+        "result_sha256": "a8a3f9997f6a9e44aa2c0b1a1f83e4775e3cee4a17fa0aa2f7b5025fa55f8941"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "protocol": "confirmatory-carrier-transfer-v1",
+  "role": "validation-only single-split, single-seed carrier sensitivity check; cannot change the locked cap-grid, TPE, or standard-test reporting decisions",
+  "datasets": [
+    "FD001",
+    "FD002"
+  ],
+  "caps": [
+    90,
+    100,
+    110,
+    115,
+    125
+  ],
+  "reporting_cap": 125,
+  "split_seed": 20260724,
+  "endpoint_seed": 21260727,
+  "model_seed": 42,
+  "carrier": "dualstream",
+  "config": {
+    "FD001": {
+      "seq_len": 50,
+      "lr": 0.0005
+    },
+    "FD002": {
+      "seq_len": 50,
+      "lr": 0.001
+    }
+  },
+  "epochs": 40,
+  "patience": 6,
+  "train_stride": 5,
+  "validation_interval": 2,
+  "selection_rule": "minimum primary-split validation objective; exact ties prefer the larger cap",
+  "primary_campaign_manifest_sha256": "6a226c4bcaecb24ac4c1b69f71228cf53f0fdbd9934229b630bc019b2d060422",
+  "tpe_robustness_summary_sha256": "0db4b80d6d198dfb65d0ace4b88696ed746df17d55e1575cff804bdf132e6ced",
+  "runner_sha256": "e09aade135862caebf970ef5d3b30d9e56b8d7a091f3e4ad1c5262a19f597bb8",
+  "trainer_sha256": "5f4dcb30b0c79d9a5bf02d9880a039f2dd0efb4be8f248e48bf183a81f664499",
+  "model_sha256": "b6f1d0baac6369d4d51f0451d9219ffc27e5210154cec3110ceef9a3433b622b",
+  "raw_train_sha256": {
+    "FD001": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "FD002": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f"
+  },
+  "test_files_permitted": false,
+  "campaign_id": "carrierv1-2708c7613ee82a30"
+}

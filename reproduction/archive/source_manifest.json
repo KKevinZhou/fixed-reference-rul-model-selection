@@ -1,0 +1,333 @@
+{
+  "created_utc": "2026-10-10T14:03:08.127193+00:00",
+  "records": [
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\analyze_exposure_bound.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\analyze_exposure_bound.py",
+      "sha256": "7433129cfd7c4afc159221e1f43b33519c8382dfd90d0d3f3951c0e482f7138c"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\audit_public_workflow.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\audit_public_workflow.py",
+      "sha256": "2eed07d7a5b81b5af2969174a0ca36dd477aea073ced8e28e4cebcaf388afeee"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\build_release.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\build_release.py",
+      "sha256": "ecdf4c8d2353142e0f307f9af654561b62e17d6714b820afa7a3d287c519e0ec"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\canonical_cmapss_sha256.json",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\canonical_cmapss_sha256.json",
+      "sha256": "85ed8a828a4b69152ba6c8332967772b0958cc11f0b11d94c0b2dc55dc74bfba"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\confirmatory_rul_train.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\confirmatory_rul_train.py",
+      "sha256": "5f4dcb30b0c79d9a5bf02d9880a039f2dd0efb4be8f248e48bf183a81f664499"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\create_selection_attempt_manifest.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\create_selection_attempt_manifest.py",
+      "sha256": "b298a7e43c5219af97642a16436fdda152ac1dfb7a210764731d49e0abeae524"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\environment-lock.txt",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\environment-lock.txt",
+      "sha256": "6dac7a2fc5a41f4c9ef0826485de47f9b768d601e0fc643606f4e421c5fb6b8f"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\final_attested_trainer.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\final_attested_trainer.py",
+      "sha256": "c7ef909ab20f908eb1c55fe1be07f603b3ff3c1b49e2c76f2fad34e42c830f41"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\gate_analysis.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\gate_analysis.py",
+      "sha256": "aae9af735c1e385a2f156c8db0b6637144ffe95e87e8eb7cf9a15eaadb06b1d0"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\generate_manuscript_assets.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\generate_manuscript_assets.py",
+      "sha256": "0adc5d567ec61ab1f607b12263238c9de39adbb4d0df57327acf6c1930ae7021"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\hpo_baseline.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\hpo_baseline.py",
+      "sha256": "c45d3108a6ee29ef3fb705782f2db8fec5afeff2427b87092de2306ca7a33433"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\LICENSE",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\LICENSE",
+      "sha256": "89d517b5ddcd846b29ec103d745d4bd545268e2c68e9bc9bf96fd098902a82b2"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\post_sweep_pipeline.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\post_sweep_pipeline.py",
+      "sha256": "97a1f83871ece769453387c7f20ba6f5054533d87d1ca0fc057a18e047f4b365"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\posttest_summarize_strict.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\posttest_summarize_strict.py",
+      "sha256": "70bc6da4f12c593f6c6c4e0b6ad2e8309b373411773390edd6a3088d60550df4"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\preflight_confirmatory.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\preflight_confirmatory.py",
+      "sha256": "4cf66e10707d431fef46971bd1054909d2bd881fc98d1593cf816b6c38ec6ccf"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\prepare_release_metadata.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\prepare_release_metadata.py",
+      "sha256": "b73b4472980b20e4bc6a72a39843ac519c3357e1dfe4c55f9a907d6e0ce7cf75"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\public_workflow_audit.json",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\public_workflow_audit.json",
+      "sha256": "e0ac7d23c195c276451eef1d722729f84a82c2c8190b4670df1df53da03a230c"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\README.md",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\README.md",
+      "sha256": "66b4391c8258115f375405bb431607432401f829953247db59b772ae92837288"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\requirements-dev.txt",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\requirements-dev.txt",
+      "sha256": "9dfd138ab8018069b03f121bb2540ce9b16be664cbe7ffd46cafdc85660a6b14"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\requirements-lock.txt",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\requirements-lock.txt",
+      "sha256": "757c902516473f00002f63751cc08d8b2c0a984bf4859cc393bd7ca01e9963a0"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\requirements.txt",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\requirements.txt",
+      "sha256": "f9ae085b94a391b4608cacea5556b241ad1a10f3913f75c1c24c8b91d78b74c8"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\resume_cap_sweep_parallel.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\resume_cap_sweep_parallel.py",
+      "sha256": "ac8a17f564031846d0f5b0587c0a72a68c4776c7c9e291ad6f0be1b19f994a94"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\retry_carrier_transfer_failures.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\retry_carrier_transfer_failures.py",
+      "sha256": "a3e716eb54d972b174361149005ff8b0c45f3dd85a18a99d33cb1995f6f64cd4"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_carrier_transfer.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_carrier_transfer.py",
+      "sha256": "e09aade135862caebf970ef5d3b30d9e56b8d7a091f3e4ad1c5262a19f597bb8"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_confirmatory_cap_sweep.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_confirmatory_cap_sweep.py",
+      "sha256": "f3fddb8819bff19e4d7397362d012cbd496cb5f56360b9105dbbd933785fd32b"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_confirmatory_final.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_confirmatory_final.py",
+      "sha256": "d6c6e5a3dd5bb008f05df229363ac9f6c91bb85971c20b5a8b2baa5df7daf684"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_confirmatory_seed_stability.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_confirmatory_seed_stability.py",
+      "sha256": "554cbbb8733647d2ab70e1b9bb1cc012c40db36033d5fd980c6245a856f00f9e"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_confirmatory_tpe.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_confirmatory_tpe.py",
+      "sha256": "c3767b56e74aefd4e84ba6a02e52e9c27bac2e014a5a3601e94e4fa02decfdcb"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_qa_suite.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_qa_suite.py",
+      "sha256": "314c859727de574e33fdd1d9eec8ee0af178e579fdcc9c67191c642220bdf033"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_strict_cap_sweep.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_strict_cap_sweep.py",
+      "sha256": "277696524bb6487924c469fb41ceb7cfd9c9295eb774b1dad2621739068674cb"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\run_tpe_robustness.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\run_tpe_robustness.py",
+      "sha256": "5b0574b362ce2d0cfc602dde7937b6de15a92c487efb49ece604798efbe38e71"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\strict_hpo.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\strict_hpo.py",
+      "sha256": "7f00b8eaaf201e67eda1bf437f1bb4da05b818c6b7dffe097eada94cb65f3966"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\strict_rul_train.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\strict_rul_train.py",
+      "sha256": "208321fb1fc3e8ccb7496c784b225e6e82868a7852ec33a827643a1eaafd1935"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\summarize_confirmatory.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\summarize_confirmatory.py",
+      "sha256": "96e65c58479d2d3f267b130afdf7b5f54075c38d30082bb868e4aa36f3592a0e"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\summarize_strict_campaign.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\summarize_strict_campaign.py",
+      "sha256": "049b9521ee77c0335871d4476768a05de9277538f5a4c2018e76a9e5b9b195dc"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\train_v3_regression.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\train_v3_regression.py",
+      "sha256": "0bd6f3fcfdc419c35b5acfa9df36383c93b90327158a30158a2dabc90bb117db"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\train_v3_xjtu.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\train_v3_xjtu.py",
+      "sha256": "cdea5445db7613156cd420b4e73575e83f9bfbd64309362bbb3b49e1c748e883"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\verify_release.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\verify_release.py",
+      "sha256": "613a2f9f3f92e0af7f89a5d307a3e1a9b55b97809ef32681069206707e349378"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\VERSION",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_finalize_confirmatory.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_finalize_confirmatory.py",
+      "sha256": "f898cacf6c20fdb0603d95892decb2c3802a84b93f5982a6dc9460ed19b215cc"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_run_carrier_transfer.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_run_carrier_transfer.py",
+      "sha256": "7f2c44912c873bcaca9dee3f247616f2aa6da161b02a98a90d8e5cb5cba5c871"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_run_seed_stability.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_run_seed_stability.py",
+      "sha256": "15c8e790c05fafc0dd4046a506e3e2593fbd155ad23e4b2915c8ac6c332c0ada"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_run_seed_stability_parallel.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_run_seed_stability_parallel.py",
+      "sha256": "a4b0872dd22e281fd7965ffa1a57ee90b1d1a5af0b24b9ed016a3a79a29b8dcf"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_run_tpe_robustness.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_run_tpe_robustness.py",
+      "sha256": "ac2ccad82362c1943033a449d7b7e94e34d0a811c3b242d32deb9f86407f130e"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\wait_and_run_tpe_suite.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\wait_and_run_tpe_suite.py",
+      "sha256": "04abd3c601f6d47018310d817ce869ffd4375411f7e7a6f4bdff79035f563743"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\baselines\\models_v3.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\baselines\\models_v3.py",
+      "sha256": "b6f1d0baac6369d4d51f0451d9219ffc27e5210154cec3110ceef9a3433b622b"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_approval_flow.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_approval_flow.py",
+      "sha256": "48ab3ea53d5320b9740fefd7bff8b226f099a9561e0eed7c04e66db9162873b7"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_build_release.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_build_release.py",
+      "sha256": "f01a7cdc6e1df46f8d35caaeb14d6a760c7f2ee7f0d3f9bfe3dcc55faf3c8a61"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_carrier_retry.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_carrier_retry.py",
+      "sha256": "a45ed21fda25235b2945f2d8d8f22aea6a2de3fe853145740f0bd10f7e85c522"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_carrier_transfer.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_carrier_transfer.py",
+      "sha256": "6e35acf0f3ee156522730dd7a24e631b720c4ea608d91603db954c69abc60adf"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_confirmatory_protocol.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_confirmatory_protocol.py",
+      "sha256": "7a365aad303c82137cce73f5056e782b588f4ce1ba7ef12314dfef4b188f0328"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_exposure_bound.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_exposure_bound.py",
+      "sha256": "1cd466d8ee06b2e6ab4f9cb25396b8a0366e2135550d0871bfb17279147569b7"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_final_receipts.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_final_receipts.py",
+      "sha256": "880a396ac4797a099e4956b792ba843a0b564e3ae26f623412bd91e3a779d46b"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_finalization_watcher.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_finalization_watcher.py",
+      "sha256": "6cc43c1dbe6db2aa90de277946e22a651ea8297293ad04626df9d6381d88bf44"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_manuscript_assets.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_manuscript_assets.py",
+      "sha256": "cc835c742b2ee091f0bed9bc82e7eba7125ae3f63a69f4f848bae26b5cf4910f"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_parallel_resume.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_parallel_resume.py",
+      "sha256": "129614a1a1e037862fceeabff7f8544051bcf08cb5f076f528be378c365e8a29"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_preflight_metric_binding.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_preflight_metric_binding.py",
+      "sha256": "938fc488b0b1196e365e2c43b86062f75630a38c7211328b7ff849e2a59f4b11"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_preflight_tpe.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_preflight_tpe.py",
+      "sha256": "48c887c1fb38dc2ca89d33389576284f11203e394df7f87f1501c77f99becfee"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_premarker_provenance.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_premarker_provenance.py",
+      "sha256": "f5e36b6a0f27f35966c0c7325cb3b476b61eab601bc24178346663e4d0b12bc4"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_public_workflow_audit.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_public_workflow_audit.py",
+      "sha256": "94226520a2bcf427902f33470c5589c19051662be08e8bceb72d03c7449eaf4a"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_release_metadata.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_release_metadata.py",
+      "sha256": "2895232e94dadad408fa8c7462fa8800cf650662f2580b699c1574aec19898fd"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_submission_compliance.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_submission_compliance.py",
+      "sha256": "80cef483716a93f937b92d94a65ab98c9a5bca2d09cff7fbb8789a6a6111aa69"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_summary_metrics.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_summary_metrics.py",
+      "sha256": "6db43d3677afe795d7bda36a4643dc1b06bb4e64eb1aeffc250ca68fe392ed58"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_verify_release.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_verify_release.py",
+      "sha256": "85f32bdd081b1edf4717a156d99a5df2c84c5cb186e0a8471d94f92800a31c8e"
+    },
+    {
+      "origin": "D:\\paper\\Fixed_Reference_RUL_Model_Selection\\reproduction_artifact\\tests\\test_zenodo_metadata.py",
+      "snapshot": "D:\\paper\\RESS_preDOI_author_review_20260726\\audit\\reproduction_attempt_20261010\\source\\tests\\test_zenodo_metadata.py",
+      "sha256": "936a88d0071297b1e54b8dcacd5eb5af7da6d6ef380237adc2d16e946ef9bddf"
+    }
+  ],
+  "purpose": "New local reproduction from current source; not recovery of historical execution",
+  "data_root": "D:\\paper\\RESS_preDOI_author_review_20260726\\organized_20261009\\data_root",
+  "bib_sha256": "c5669ec88d6185fdea2bc86693ca880185754aa546288cecd73cd7f15a58dc36"
+}

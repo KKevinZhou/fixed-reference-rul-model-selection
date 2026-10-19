@@ -1,0 +1,28 @@
+{
+  "protocol": "confirmatory-tpe-robustness-v2",
+  "screening_campaign_id": "ccv2-f34936e264e36f22",
+  "tpe_lock_hashes": {
+    "FD001_self_scaled": "5df4991290252b16b22a36ef1e2cb91b4827907b31d99ccc12afb1bf298116ae",
+    "FD001_fixed_reference": "401a3ced43325f5a0dffce4c1abc4c62166a9b8aabe669d21a2a6f703b62bc0f",
+    "FD001_fixed_cap_125": "74e41de4cda9592589268313347e8a5d49f6bd2dbd59762ae58129b8d40b910c",
+    "FD002_self_scaled": "0271ccd1681f619fd886863fa157f35f8261c339e11b5ff98901c27ae912a08a",
+    "FD002_fixed_reference": "383d05ac7c00903154d8e3397b84a3f25393fe7e9f3e59a5a5d7426436cd00e0",
+    "FD002_fixed_cap_125": "2de0d8efb5d51407e6291f179fffddd56100002ae1ea1ce4037b6007973949f2"
+  },
+  "secondary_split_seeds": [
+    20260725,
+    20260726
+  ],
+  "primary_additional_model_seeds": [
+    43,
+    44
+  ],
+  "workers": 2,
+  "robustness_script_sha256": "5b0574b362ce2d0cfc602dde7937b6de15a92c487efb49ece604798efbe38e71",
+  "trainer_sha256": "5f4dcb30b0c79d9a5bf02d9880a039f2dd0efb4be8f248e48bf183a81f664499",
+  "model_sha256": "b6f1d0baac6369d4d51f0451d9219ffc27e5210154cec3110ceef9a3433b622b",
+  "selection_frozen": true,
+  "role": "report-only post-lock internal robustness evaluation; does not change the selected trial",
+  "test_evaluated": false,
+  "campaign_id": "tperobv2-54aeecae9bb6eb0c"
+}

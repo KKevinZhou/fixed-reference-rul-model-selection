@@ -1,0 +1,42 @@
+{
+  "protocol": "confirmatory-cap-sweep-v2",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "caps": [
+    90,
+    100,
+    110,
+    115,
+    125
+  ],
+  "reporting_cap": 125,
+  "split_seeds": [
+    20260724,
+    20260725,
+    20260726
+  ],
+  "endpoint_seed_rule": "split_seed + 1000003",
+  "model_seeds": [
+    42
+  ],
+  "epochs": 40,
+  "patience": 6,
+  "train_stride": 5,
+  "validation_interval": 2,
+  "carrier": "compact_tcn",
+  "trainer_sha256": "5f4dcb30b0c79d9a5bf02d9880a039f2dd0efb4be8f248e48bf183a81f664499",
+  "model_sha256": "b6f1d0baac6369d4d51f0451d9219ffc27e5210154cec3110ceef9a3433b622b",
+  "raw_train_sha256": {
+    "FD001": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+    "FD002": "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f",
+    "FD003": "2abbe9968cc5e8eb091980f51b20f62bb4127336d3482cb52071d53bf23329e2",
+    "FD004": "27ef6160b6a1dcb2613a88de9c239f763b223f02cdc41dc5cdedc5dc189b6218"
+  },
+  "selection_rule": "minimum split-mean objective; exact ties prefer the larger cap",
+  "test_evaluated": false,
+  "campaign_id": "ccv2-f34936e264e36f22"
+}
